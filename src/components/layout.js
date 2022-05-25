@@ -13,15 +13,14 @@ const Layout = ({ location, title, children }) => {
           <Link to="/" className="logo">
             <StaticImage
               layout="fixed"
-              src="../images/logo.svg"
+              src="../images/logo.png"
               width={42}
-              height={29}
+              height={30}
               alt="Profile picture"
             />
-            {/* <embed src="..//test.svg" style="display:block;width:330px;height:240px" /> */}
           </Link>
           <Link to="/">首页</Link>
-          <Link to="/">分类</Link>
+          <Link to="/about">关于</Link>
       </div>
     )
   // } else {
